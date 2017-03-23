@@ -86,7 +86,7 @@ this.ckan.module('spatial-query', function ($, _) {
       });
 
       // OK map time
-      map = ckan.commonLeafletMap('dataset-map-container', this.options.map_config, {attributionControl: false});
+      map = ckan.commonLeafletMap('dataset-map-container', this.options.map_config, {attributionControl: false, maxBounds:([[-20, 100],[-50, 160]])});
 
       // Initialize the draw control
       map.addControl(new L.Control.Draw({

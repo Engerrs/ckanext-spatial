@@ -144,11 +144,12 @@
 /* cursors */
 
 .leaflet-clickable {
-	cursor: pointer;
+	/*cursor: pointer;*/
+        cursor: default;
 	}
 .leaflet-container {
-	cursor: -webkit-grab;
-	cursor:    -moz-grab;
+        /*cursor: -webkit-grab;
+	cursor:    -moz-grab;*/
 	}
 .leaflet-popup-pane,
 .leaflet-control {
@@ -157,7 +158,7 @@
 .leaflet-dragging,
 .leaflet-dragging .leaflet-clickable,
 .leaflet-dragging .leaflet-container {
-	cursor: move;
+        cursor: move; 
 	cursor: -webkit-grabbing;
 	cursor:    -moz-grabbing;
 	}

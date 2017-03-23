@@ -32,8 +32,8 @@
       var mapConfig = mapConfig || {type: 'mapquest'};
       var leafletMapOptions = leafletMapOptions || {};
       var leafletBaseLayerOptions = jQuery.extend(leafletBaseLayerOptions, {
-                maxZoom: 18
-                });
+                maxZoom: 6,
+                  });
 
       map = new L.Map(container, leafletMapOptions);
 
